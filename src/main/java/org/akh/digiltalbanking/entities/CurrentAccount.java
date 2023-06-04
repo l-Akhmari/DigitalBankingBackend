@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.DiscriminatorColumn;
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
@@ -14,5 +13,5 @@ import javax.persistence.Entity;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CurrentAccount extends BankAccount{
-    private double overdraft;
+    private double Overdraft;
 }
